@@ -1,0 +1,100 @@
+{
+ "name": "james-pond",
+ "title": "James Pond (Vectordean for Millennium, 1990; Archimedes conversion by Krisalis, 1991)",
+ "platform": "acorn-archimedes",
+ "doc": "A recipe: how to turn a user's own copy of the game into a native executable. It holds no game data: the inputs are recognised by content (see $SS/tools/weave.py). One disc; its known dumps (TOSEC's two .adf, its zip of !JamesPond, and the 1994 Buzz re-release's .hfe) hold the same game, and differ only in !run and the joystick drivers beside it.",
+ "inputs": {
+  "containers": {
+   "James Pond (1990)(Krisalis).zip": "5c764c9c1fe89fdc86193c6c3738984ef048c34d02c44341593b9c519e0d4140"
+  },
+  "formats": [
+   "adf",
+   "zip",
+   "hfe"
+  ]
+ },
+ "discs": [
+  {
+   "name": "disc",
+   "title": "James Pond: !JamesPond (LOADER, JamesCode, MusicModule, the graphics, maps and music)",
+   "known_images": [
+    "959cd00bd50e33ca814178002011c57807e47305cbb27c40edbc9e7374fefffe",
+    "784fbb8d7dbeb01c416b468d0e3af87763a7e46e24e27a940fc5b5811a34388e",
+    "a0c36a1a8da5f164701553ef84dac0b7d7e93aca1562663c1d035d44850ae1bd",
+    "913c6dbca98939ccc1b91b49ae2c5cdfec2aadcc475762b2ba1a84c081f152b2"
+   ],
+   "key_files": {
+    "!JamesPond/JamesCode": "763f1e4715161d5fb7ed312d3cbe834dc6fa34d7f387495072eda4486af64492",
+    "!JamesPond/LOADER": "3662f8fb1ffe17ebd6c159767adfc45dd7c0b61f4b4265bb9e93ddf0b7b580f7",
+    "!JamesPond/MUSMOD2": "616bd9f8ce63b50bf938edd7d4c62cc10956326ae67952cdccddbbf2b9869209",
+    "!JamesPond/Graphics/END": "d03969744b35c70fa4d9272bb2e6ab057462a693ebf6f726eaae2500e770a942",
+    "!JamesPond/Graphics/GFX": "8fe5c1142587f42455b9e8dad65862f3ba536a4b9d3228e624ead90859c286d5",
+    "!JamesPond/Graphics/HOME0": "73a14d011cca85415b8970821e0870ec93bbf8301e5653ed938f538c1041ea34",
+    "!JamesPond/Graphics/KRISALIS": "5672244ffb3bafdd0f0b990de94ce33f7a7f3d99e1bb08bb5f8bfc7d2f019653",
+    "!JamesPond/Graphics/MGM": "327776b20a113ed36d255c27a727faf6444d7e7362a7fdfa8b02fc13f31d90ca",
+    "!JamesPond/Graphics/TITLE": "9d085473a216ca5445b27a1cb4fac4d9a280d075467704451c77d17b509816a4",
+    "!JamesPond/MAPS/MAP0": "c643f7bbceaf5b2fd83469cf0e25ffc62b7d287548672d8b3bf8e7308a716864",
+    "!JamesPond/MAPS/MAP1": "49a0828bda9334195d071d8d57a8265b4c68d8511727f657c1f3a77712bad01e",
+    "!JamesPond/MAPS/MAP10": "ce36a61e2bf474b32f0e0d1e37c17169f63b870aefd0b5947ef958a2a80c6427",
+    "!JamesPond/MAPS/MAP11": "e73aaac2da536acf072264e5b1186ec4582ac746cc2286989bc39fe54e296c2f",
+    "!JamesPond/MAPS/MAP2": "4b2da72cc5087c3504fb9075856e760258fb639dbacebd4b53591ada209a38d3",
+    "!JamesPond/MAPS/MAP3": "0bc3f431b30bcd9df56f5c7102d292f0764fe73255c24704831d93672b06e67b",
+    "!JamesPond/MAPS/MAP4": "568ae24bfc9e93b49501e2b76068bc058b9375257818db18367156ad31338a6f",
+    "!JamesPond/MAPS/MAP5": "d16b02d13986875fb893a1e9fd750c4126ec88d43fc502407d08470fd19902db",
+    "!JamesPond/MAPS/MAP6": "be7ac03921035f9a06b7611b937ab9d42d7be2270afcbfee1ed66739bc9b1ce3",
+    "!JamesPond/MAPS/MAP7": "93f1da1c2c0af1c449e0664bf37f283995b5dcf5daead2baeb05cb1eb87b31a6",
+    "!JamesPond/MAPS/MAP8": "b8e9954ad36cf157c63439fea3b612a534de766460d82c306f1d4b42bd8cbc5e",
+    "!JamesPond/MAPS/MAP9": "75affe3618f11ab962d987b3d3e55a1dbc988b57d41cc6227414444e4670af49",
+    "!JamesPond/MUSIC/JPGAME1": "801bd336fea52e706ddaa9b7728c499ad6f7227eab25d05ad77de5c367fa0d64",
+    "!JamesPond/MUSIC/JPGAME2": "a2a5a6b0fa05e0b742dad51f2f1787d66a61255406b7648a2293f4760ccff693",
+    "!JamesPond/MUSIC/JPSCORE": "d863d313b6d565e6d2fb447db07035c54806cd7950f428e3ef2a5faa9c06ec36",
+    "!JamesPond/MUSIC/SAMPLES": "563ee7a865fbb330ea11ee98a0f26a25c7622325772cb634fc0af78fc7857a44",
+    "!JamesPond/SPRITES/MASK0": "2a5f8edce221c608842edde8888ff42b7d4f987a6eca7b71a2d2570b3282e209",
+    "!JamesPond/SPRITES/MASK1": "5b6e47bf6193b0fdcb1b9c1c5af5b493ace6bf241e9c8a23e7ddd905352b2999",
+    "!JamesPond/SPRITES/MASK10": "27a61aa9b6a9ab9f61f8f683c8d8e304363a68d06d9364c521ce3d1c20fd5be7",
+    "!JamesPond/SPRITES/MASK11": "41b4c33aaf51a002e015aa3d11af5a59b0b9daa92f087d50c76e945d286772c4",
+    "!JamesPond/SPRITES/MASK2": "e7bc816abd7f6fc17dd9720416287652775d4e4996bb485456268a6e67b64e1f",
+    "!JamesPond/SPRITES/MASK3": "21495474ae80b5b8dcaaca7e7252d9969da9949d54a6a0d00e859085088d82fd",
+    "!JamesPond/SPRITES/MASK4": "1ab906ecb171dfa288d22f60930072ce3afa880bd839a75328ecf3e2d8c266ca",
+    "!JamesPond/SPRITES/MASK5": "4d75562709aa390e0eb7e490ebeac759e5fe31549122d17ae86af8b149784b6a",
+    "!JamesPond/SPRITES/MASK6": "091e8533ccf6d06e52abb3824848ada9e3e95eb6faca903a0a5c204d6a12a0d3",
+    "!JamesPond/SPRITES/MASK7": "2d1f5f44b47fffbdd8ea977b02fc00def4e50d940329fd8352a525709e276b7c",
+    "!JamesPond/SPRITES/MASK8": "345b0118b6e34dea66bd2ba1d794e6544f35763ff9452dbc3737ff5040531022",
+    "!JamesPond/SPRITES/MASK9": "8c685a27e85a053f682030005774f17a5e8aa41e43f612fe10619ce5ba43c70c",
+    "!JamesPond/SPRITES/SPRITE0": "6be5396b28e3ecf77b8df71f0127e9dd3c9185f3e9658e557a494f7a0aec51b6",
+    "!JamesPond/SPRITES/SPRITE1": "15d432600d4f647b99f4da4e6b81155072482d59c24a1f66025f1f024c9915f9",
+    "!JamesPond/SPRITES/SPRITE10": "1a2ee252ecdbe3b0bd6a7ab54ef85a5a58e1325a7923b9c49101d8a6816bd167",
+    "!JamesPond/SPRITES/SPRITE11": "540d9dd86a48d609dc6523122eb9a1f8b6f55e5d32887f769d9a4d998a29bf5e",
+    "!JamesPond/SPRITES/SPRITE2": "e07d48f810f36633ac9da8f68efc462ba8d0ce36e2d740a2fe28f34adefe25a4",
+    "!JamesPond/SPRITES/SPRITE3": "9d5494a17fb62746c95521dc7a96588bc507d85bcde022b16cf0e4172bceb632",
+    "!JamesPond/SPRITES/SPRITE4": "b0c9b8ba540da0c4578e6910f44d6100ecb41efa8343d5b3e9d26aec085ca46e",
+    "!JamesPond/SPRITES/SPRITE5": "7f615057b974d28b5e4606a9aa145a4c8ca3d9bd69106e94adda502e51be4d03",
+    "!JamesPond/SPRITES/SPRITE6": "eb481a36ce25642255d4e3ae6a66a5e0d3ca19c6ba11939877e1c5365d77a762",
+    "!JamesPond/SPRITES/SPRITE7": "a49912a12292cd7c251634e058f8044f657cefa9b6f08f56aa7e084561a006e7",
+    "!JamesPond/SPRITES/SPRITE8": "d470ca67e9434646c984c9b7a47eef4488dd887eb35db4927eb569e0eff6fbd4",
+    "!JamesPond/SPRITES/SPRITE9": "ed242c368a43d82384c48b293671d41bbdd341089a7709f79c89df306457c62c"
+   },
+   "game_dirs": [
+    "!JamesPond"
+   ]
+  }
+ ],
+ "build": [
+  "python3 -I \"$WEAVE\" extract . INPUTS",
+  "python3 -I tools/unpack.py",
+  "make -C recomp regen",
+  "make -C recomp"
+ ],
+ "output": "recomp/jamespond",
+ "requires": {
+  "superspider": "~/stuff/superspider, or $SUPERSPIDER (dune build): analyse, gen, tools/weave.py, tools/arm2.py",
+  "libroger": "~/stuff/libroger, or make ROGER=... (roger_program.at)",
+  "host": [
+   "python3",
+   "ocaml + dune",
+   "gcc",
+   "SDL3 (pkg-config sdl3)"
+  ]
+ },
+ "run": "cd recomp && ./jamespond"
+}
