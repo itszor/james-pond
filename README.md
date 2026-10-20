@@ -37,13 +37,17 @@ What it makes:
     recomp/jamespond      the game
 
 Committed: recipe.json, build.sh, tools/unpack.py, recomp/Makefile,
-recomp/game.c, this file.
+recomp/game.c, recomp/jamespond.ini, this file.
 
 Playing
 -------
 
     ./jamespond                 as !run: the Krisalis logo, the intro, the title
     ./jamespond --level=5       a new game starts at level 5 (1-12)
+    ./jamespond --crop          less letterboxing on a widescreen monitor:
+                                rows 0-201 once JamesCode starts (the
+                                Krisalis logo before it is full screen);
+                                recomp/jamespond.ini
 
 Keys (from the game's Read_Me): Z left, X right, P up, L down, Space
 blows a bubble (fire); Tab pauses; F1/F2 volume up/down, F3/F4 maximum
