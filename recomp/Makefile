@@ -9,7 +9,7 @@ GEN     := $(wildcard gen/code*.c) gen/entries.c
 GENLOAD := $(wildcard genload/code*.c) genload/entries.c
 GENMUS  := $(wildcard genmus/code*.c) genmus/entries.c
 OBJ     := $(GEN:.c=.o) $(GENLOAD:.c=.o) $(GENMUS:.c=.o) game.o
-LIBS    := $(shell pkg-config --libs sdl3) -lm -lpthread
+LIBS    := $(shell pkg-config --libs sdl3) -ljpeg -lm -lpthread
 INC     := -I$(ROGER)/include
 
 jamespond: $(OBJ) $(ROGER)/libroger.a
